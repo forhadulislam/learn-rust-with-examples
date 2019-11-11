@@ -4,18 +4,25 @@ Learn about Rust with real examples. This repo contains example codes for Rust b
 The examples provide a better understanding of using Rust features. 
 Here are the list of examples:
 
-    1.  Variables
-    2.  Slices & Maps
-    3.  Loops
-    4.  Pointers
-    5.  Structs
-    6.  Methods
-    7.  Error
-    8.  Interface
-    9.  Traits
-    10. Channels    
-    11. Closure    
-    12. JsonHandler
-    13. Mutex
+    1.  Hello rust
+    2.  Cargo
+    3.  String, Vector and Slices
+    4.  Loops
+    5.  Functions
+    6.  Structs
+    7.  Enum
+    8.  Traits
+    9.  Closures
+    10. Error handling    
+    11. Type and Conversions    
+    12. Channels
+    13. Generic types
+    14. Generic functions
+    15. Macro
+    .
+    .
+    .
+    .
+    20. Testing
 
 
