@@ -1,5 +1,5 @@
-## Example
+## Strings
 
-Placeholder for example code.
+In Rust, String is a primitive type. 
 
 
