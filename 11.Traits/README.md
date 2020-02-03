@@ -1,5 +1,5 @@
-## Example
+## Traits
 
-Placeholder for example code.
+Rust Traits are like interfaces in other languages (i.e Java).
 
 

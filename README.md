@@ -24,5 +24,13 @@ Here are the list of examples:
     .
     .
     20. Testing
+    
+### How to run examples
+
+First you need to compile the rust file into binary, then you can run the executable. 
+Here is an example of doing that - 
+
+    rustc 05.Vectors/example.rs
+    ./example
 
 
