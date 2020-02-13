@@ -1,6 +1,9 @@
 fn main() {
     // Statements here are executed when the compiled binary is called
 
-    // Print text to the console
+    let x = true;
+
+    println!("x is {}", x);
+
     println!("Hello World!");
 }
