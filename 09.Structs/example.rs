@@ -11,6 +11,10 @@ impl User{
     fn update_email(&mut self, email: String){
         self.email = email
     }
+
+    fn kill(self){
+        println!("Killed: {}", self.get_user_as_string());
+    }
 }
 
 fn main() {
@@ -30,4 +34,8 @@ fn main() {
     user.update_email("ejohn.parker@email.com".to_string());
 
     println!("get_user_as_string: {}", user.get_user_as_string());
+
+    user.kill(); // cannot kill again ... as it doesnot copy
+
+    // executing this user.kill(); will fail the build
 }
