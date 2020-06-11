@@ -4,3 +4,4 @@
 **/*.rs.bk
 .vscode/*
 .history/
+example
