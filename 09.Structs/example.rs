@@ -1,20 +1,25 @@
-#[derive(Debug)]
+struct User{
+    name: String,
+    email: String
+}
 
-struct User<'a>{
-    name: &'a str,
-    email: &'a str
+impl User{
+    fn get_user_as_string(&self) -> String {
+        format!("name: {}, email: {}", self.name, self.email)
+    }
 }
 
 fn main() {
     // Statements here are executed when the compiled binary is called
 
 
-    let new_user = User{
-        name: &String::from("John Doe"),
-        email: &String::from("john.doe@email.com"),
+    let user = User{
+        name: "John Doe".to_string(),
+        email: "john.doe@email.com".to_string(),
     };
 
-    println!("New User name: {}", new_user.name);
-    println!("New User email: {}", new_user.email);
-    println!("Struct content: {:?}", new_user);
+    println!("New User name: {}", user.name);
+    println!("New User email: {}", user.email);
+
+    println!("get_user_as_string: {}", user.get_user_as_string());
 }
