@@ -37,5 +37,5 @@ fn main() {
 
     user.kill(); // cannot kill again ... as it doesnot copy
 
-    // executing this user.kill(); will fail the build
+    // executing another user.kill(); will fail the build
 }
