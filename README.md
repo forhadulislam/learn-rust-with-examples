@@ -11,14 +11,17 @@ Here are the list of examples:
     5.  Vector 
     6.  Slices
     7.  Loops
-    8.  Traits
-    9.  Closures
-    10. Error handling    
-    11. Type and Conversions    
-    12. Channels
-    13. Generic types
-    14. Generic functions
-    15. Macro
+    8.  Functions
+    9.  Structs
+    10. Enums    
+    11. Traits    
+    12. Closures
+    13. Typs and Conversions
+    14. Channels
+    15. Generic types
+    16. Generic functions
+    17. Error handling
+    18. Macro
     .
     .
     .
