@@ -6,11 +6,11 @@ Here are the list of examples:
 
     1.  Hello rust
     2.  Cargo
-    3.  String, Vector and Slices
-    4.  Loops
-    5.  Functions
-    6.  Structs
-    7.  Enum
+    3.  Variables
+    4.  Strings
+    5.  Vector 
+    6.  Slices
+    7.  Loops
     8.  Traits
     9.  Closures
     10. Error handling    
