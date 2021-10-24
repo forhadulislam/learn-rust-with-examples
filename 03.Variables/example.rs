@@ -14,4 +14,7 @@ fn main() {
     // Define multiple variables in one statement
     let (foo, bar) = (10, 199.99);
     println!("value of `foo` is {} and value of `bar` is {}", foo, bar);
+
+    // Variables are immutable by default because of Safety, Concurrency and Speed
+    // If we try to assign some other values to an already assigned variable then compilation will fail
 }
