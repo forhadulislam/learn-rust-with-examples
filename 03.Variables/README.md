@@ -1,17 +1,10 @@
 ## Variables and types
 
-Placeholder for example code.
+In Rust, we define variables with let. Here is an example -
 
-Several types -
+    let x = true;
 
-    - Booleans
-    - Integers
-    - Characters
-    - Floats
-    - Arrays
-    - Slices
-    - Tuples
-    - Functions
+Rust is a strictly typed programming language. 
     
 
 
