@@ -17,4 +17,20 @@ fn main() {
 
     // Variables are immutable by default because of Safety, Concurrency and Speed
     // If we try to assign some other values to an already assigned variable then compilation will fail
+
+
+    let someVar = 1;
+    let someVar = someVar;
+    println!("someVar is: {}", someVar);
+    let someVar = 3;
+    println!("someVar is: {}", someVar);
+
+    // Shadowing variables
+    let a = 1;
+    {
+        let a = 2;
+        println!("{}", a);
+    }
+    println!("{}", a); 
+
 }
